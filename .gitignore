@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# Environment variables
+.env
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# MacOS / Windows specific
+.DS_Store
+Thumbs.db

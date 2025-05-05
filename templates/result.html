@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .result-card {
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .progress {
+            height: 25px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card result-card">
+            <div class="card-header bg-primary text-white">
+                <h2 class="text-center">Diabetes Prediction Result</h2>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title text-center">
+                    {% if result.prediction == 1 %}
+                        <span class="text-danger">Likely Diabetic</span>
+                    {% else %}
+                        <span class="text-success">Likely Non-Diabetic</span>
+                    {% endif %}
+                </h3>
+
+                <p class="card-text text-center">
+                    Probability: {{ "%.2f"|format(result.probability * 100) }}%
+                </p>
+
+                <div class="progress">
+                    <div class="progress-bar 
+                        {% if result.prediction == 1 %}bg-danger{% else %}bg-success{% endif %}" 
+                        role="progressbar" 
+                        style="width: {{ result.probability * 100 }}%" 
+                        aria-valuenow="{{ result.probability * 100 }}" 
+                        aria-valuemin="0" 
+                        aria-valuemax="100">
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="/" class="btn btn-primary">Make Another Prediction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
