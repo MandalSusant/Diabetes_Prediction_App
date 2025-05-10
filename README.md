@@ -44,18 +44,20 @@ sh
 pip install -r requirements.txt
 Run the app:
 
-sh
-python app.py  # For Flask
-streamlit run app.py  # For Streamlit
-2. Access Online
-🌐 Live Demo: https://your-deployed-app-link.herokuapp.com
+
 
 Screenshots
-📸 Input Form
 Input Form
+📸 ![Screenshot 2025-05-10 113539](https://github.com/user-attachments/assets/40af835b-390c-4c99-b92a-3b25a4c9df62)
+![Screenshot 2025-05-10 113548](https://github.com/user-attachments/assets/abcfca69-fae1-425f-957e-51c0f9f04b13)
+
+
+
 
 📊 Prediction Result
 Prediction
+![Screenshot 2025-05-10 113559](https://github.com/user-attachments/assets/ff0d7951-12cd-4333-9d10-c22556ed3908)
+
 
 Contributing
 Feel free to fork, improve, and submit a PR!
