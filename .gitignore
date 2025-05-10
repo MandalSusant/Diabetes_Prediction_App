@@ -20,3 +20,5 @@ env/
 # MacOS / Windows specific
 .DS_Store
 Thumbs.db
+#*.pkl
+
