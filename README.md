@@ -1,5 +1,5 @@
 # Diabetes Prediction App 🩸📊
-A machine learning-based web application that predicts the likelihood of diabetes using patient health data. Built with Python (Flask), Scikit-learn, and deployed using Streamlit/Heroku.
+A machine learning-based web application that predicts the likelihood of diabetes using patient health data. Built with Python (Flask), Scikit-learn
 
 # Features
 ✅ User-Friendly Interface: Simple input form for health parameters.
@@ -58,7 +58,7 @@ Run the app:
 Prediction
 ![Screenshot 2025-05-10 113559](https://github.com/user-attachments/assets/ff0d7951-12cd-4333-9d10-c22556ed3908)
 
-Input Form
+# Input Form
 ![Screenshot 2025-05-10 113719](https://github.com/user-attachments/assets/24f51015-315e-4399-93ff-0f8414f9798a)
 ![Screenshot 2025-05-10 113726](https://github.com/user-attachments/assets/63e5ee7f-8f0a-4ee4-adff-7ba4a3ea9cb0)
 
