@@ -66,9 +66,5 @@ Prediction
 ![Screenshot 2025-05-10 113737](https://github.com/user-attachments/assets/f83abcaf-0dc7-4caa-9c31-b3beb68bca9d)
 
 
-
-# License
-This project is open-source under the MIT License.
-
 # 🔗 Connect with me:
 GitHub: https://github.com/MandalSusant | LinkedIn: https://www.linkedin.com/in/susant-mandal-b055a4259/ 
